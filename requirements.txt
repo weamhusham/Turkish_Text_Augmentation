@@ -1,0 +1,29 @@
+Dependencies:
+
+1. Core Libraries:
+os
+re
+time
+datetime
+numpy
+pandas
+collections (Counter, defaultdict)
+2.Machine Learning Libraries:
+xgboost
+lightgbm
+sklearn:
+ensemble: AdaBoostClassifier, RandomForestClassifier
+tree: DecisionTreeClassifier
+svm: SVC
+metrics: accuracy_score, precision_score, recall_score, f1_score
+model_selection: train_test_split
+3.Transformers and Tokenizers:
+transformers:
+AutoTokenizer
+AutoModel
+AutoModelForSeq2SeqLM
+GPT2LMHeadModel
+pipeline
+4.Utilities:
+tqdm
+torch
